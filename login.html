@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru" data-vue-meta="%7B%22lang%22:%7B%22ssr%22:%22ru%22%7D%7D">
+    <head>
+        <link rel="stylesheet" href="login_style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main_contaner">
+            <div class="child_contaner">
+                <div class="authorization_block b1">
+                    <h4 class="child_contaner_title">Авторизация</h4>
+                    <input class="authorization_name second_name_entry" name="authorization" placeholder="Фамилия" type="text">
+                    <input class="authorization_name first_name_entry" name="authorization" placeholder="Имя" type="text">
+                </div>
+                <div class="authorization_block b2">
+                    <input class="authorization_param age_entry" name="authorization" min="0" type="number">
+                    <span class="authorization_param age">Возраст, лет</span>
+                    <input class="authorization_param height_entry" name="authorization"  min="0" type="number">
+                    <span class="authorization_param height">Рост, см</span>
+                    <input class="authorization_param weight_entry" name="authorization"  min="0" type="number">
+                    <span class="authorization_param weight">Вес, кг</span>
+                </div>
+                <div class="authorization_block b3">
+                    <input class="authorization_gender m" name="gender" type="radio" value="male" checked />
+                    <label class="authorization_gender label" for="male">Муж.</label>
+                    <input class="authorization_gender w" name="gender" type="radio" value="female" />
+                    <label class="authorization_gender label" for="female">Жен.</label>
+                </div>
+                <div class="authorization_block b4">
+                    <span class="authorization_sport label">Физическая нагрузка</span>
+                    <input class="authorization_sport entry" name="authorization" type="text">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

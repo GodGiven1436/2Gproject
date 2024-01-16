@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-color: gray;
+}
+
+.main_contaner {
+    min-height: 500px;
+    max-width: 390px;
+    padding: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.child_contaner {
+    max-width: 350px;
+    font-family: sans-serif;
+    padding: 50px;
+    border-radius: 3%;
+    background-color: darkgray;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.authorization_block {
+    margin-bottom: 1vh;
+}
+
+.authorization_block.b1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.authorization_block.h4 {
+    margin-bottom: 1vh;
+}
+
+.authorization_block.b1 input[class="age_entry"] {
+    
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.authorization_block.b3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.authorization_block.b3 label {
+    margin-right: 5px;
+}
+
+.child_contaner_title {
+    padding: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.authorization_name {
+    margin-bottom: 5px;
+}
+
+.authorization_name:focus{outline: 0px;}
+
+.authorization_param {
+    margin-bottom: 5px;
+    font-size: 14px;
+    width: 45%;
+}
+
+.age_entry {
+    font-size: 14px;
+    outline: 0px;
+}
+
+.height_entry {
+    font-size: 14px;
+    outline: 0px;
+}
+
+.weight_entry {
+    font-size: 14px;
+    outline: 0px;
+}
+
+.authorization_gender {
+    margin-bottom: 5px;
+    font-size: 12px;
+    width: 20%;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.authorization_sport.label {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 7px;
+}
+
+.authorization_sport {
+    font-size: 14px;
+    outline: 0px;
+}
